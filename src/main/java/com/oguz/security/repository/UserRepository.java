@@ -1,5 +1,6 @@
-package com.oguz.security.user;
+package com.oguz.security.repository;
 
+import com.oguz.security.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
