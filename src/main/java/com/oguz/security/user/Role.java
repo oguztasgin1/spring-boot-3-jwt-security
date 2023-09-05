@@ -19,7 +19,6 @@ import static com.oguz.security.user.Permission.MANAGER_READ;
 import static com.oguz.security.user.Permission.MANAGER_UPDATE;
 
 @RequiredArgsConstructor
-
 public enum Role {
     USER(Collections.emptySet()),
     ADMIN(
