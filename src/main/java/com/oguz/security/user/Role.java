@@ -52,7 +52,7 @@ public enum Role {
                 .stream()
                 .map(permission -> new SimpleGrantedAuthority(permission.getPermission()))
                 .collect(Collectors.toList());
-        authorities.add(new SimpleGrantedAuthority("ROLE_" + this.name()));
+        authorities.add(new SimpleGrantedAuthority("ROLE_" + this.name())); // When you work with permission on spring you need this prefix
         return authorities;
     }
 }
