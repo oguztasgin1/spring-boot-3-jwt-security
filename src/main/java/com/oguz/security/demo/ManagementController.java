@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/v1/management")
 @Tag(name = "Management")
-
 public class ManagementController {
     @Operation(
             description = "Get endpoint for manager",
